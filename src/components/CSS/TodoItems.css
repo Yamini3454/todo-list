@@ -1,0 +1,28 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+.todoitems-container{
+    display: flex;
+    justify-content: center;  /* centers them horizontally */
+    gap: 10px;                /* space between input and button */
+    margin-bottom: 20px;
+}
+.todoitems-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+.todoitems-cross-icon {
+    cursor: pointer;
+    margin-left: auto;   /* pushes it to the right */
+    padding-right: 16px; /* consistent spacing */
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.line-through{
+    text-decoration: line-through #404040 3px;
+}
