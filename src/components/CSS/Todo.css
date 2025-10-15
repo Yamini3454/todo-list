@@ -32,17 +32,15 @@ body{
 }
 
 .text{
-    flex: 1;
-    min-width: 0;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px solid rgb(32, 136, 123);
-    padding: 0px 10px;
+    width: 576px;
+    height: 80px;
+    padding-left: 35px;
+    border-radius: 50px;
+    border: none;
     font-size: 20px;
     outline: none;
     margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 500;  
+    margin-bottom: 20px;  
 }
 
 .todo-btn {
